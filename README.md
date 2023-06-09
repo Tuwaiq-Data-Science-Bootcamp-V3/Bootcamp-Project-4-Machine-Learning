@@ -97,4 +97,48 @@ To gain insights into the relationships between different variables in the datas
 The correlation matrix provides a numerical representation of the correlation coefficients between variables. The heatmap visualization offers a visual representation of the correlation matrix, with color intensity indicating the strength of the correlation.
 
 
+## Regression Machine Learning
+
+In order to predict the number of calls that a customer will make, we applied regression machine learning techniques. Regression models are used to estimate or predict a continuous numerical value based on input features. We compared a total of 15 models and selected the top 3 performing models for further analysis.
+
+The following models were used:
+
+- Support Vector Regressor (SVR) with different kernels
+- XGBoost Regressor (XGBRegressor)
+- Gradient Boosting Regressor (GradientBoostingRegressor)
+- Elastic Net (ElasticNet)
+- Lasso (Lasso)
+- Ridge (Ridge)
+- K-Nearest Neighbors Regressor (KNeighborsRegressor)
+- AdaBoost Regressor (AdaBoostRegressor)
+- Extra Trees Regressor (ExtraTreesRegressor)
+- Gaussian Process Regressor (GaussianProcessRegressor)
+- Huber Regressor (HuberRegressor)
+- Passive Aggressive Regressor (PassiveAggressiveRegressor)
+- Orthogonal Matching Pursuit (OrthogonalMatchingPursuit)
+- RANSAC Regressor (RANSACRegressor)
+- Random Forest Regressor (RandomForestRegressor)
+
+After evaluating the models, we selected the following three models as the top performers:
+
+- XGBRegressor
+- RandomForestRegressor
+- ExtraTreesRegressor
+### Results
+Here are the performance metrics for the selected models:
+
+| Model                  | Mean Absolute Error (MAE) | Mean Squared Error (MSE) | Root Mean Square Error (RMSE) | R^2 Score |
+|------------------------|--------------------------|-------------------------|-------------------------------|-----------|
+| XGBRegressor           | 0.770938                 | 0.942164                | 0.970651                      | 0.285643  |
+| RandomForestRegressor | 0.765282                 | 0.927023                | 0.962820                      | 0.297124  |
+| ExtraTreesRegressor    | 0.773268                 | 0.955451                | 0.977472                      | 0.275569  |
+
+<center>
+    <img src="images/output3.png" alt="Dataset Correlation" width="800px">
+</center>
+These models were selected based on their performance in terms of the mean absolute error (MAE), mean squared error (MSE), root mean square error (RMSE), and R^2 score. The lower the values of MAE, MSE, RMSE and there normal distrubtion , the better the model's predictive performance.
+
+These selected models can be used to predict the number of customer calls, providing valuable insights for customer support and engagement strategies.
+
+
 
