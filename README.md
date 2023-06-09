@@ -91,8 +91,10 @@ In this section, we present meaningful insights obtained through data visualizat
 To gain insights into the relationships between different variables in the dataset, we performed a correlation analysis. The correlation analysis helps us understand the degree and direction of the linear relationship between pairs of variables. Here is a correlation matrix and a corresponding heatmap visualization:
 
 <center>
-    <img src="images/output.png" alt="Dataset Correlation" width="1000px">
+    <img src="images/output.png" alt="Dataset Correlation" width="800px">
 </center>
 
 The correlation matrix provides a numerical representation of the correlation coefficients between variables. The heatmap visualization offers a visual representation of the correlation matrix, with color intensity indicating the strength of the correlation.
+
+
 
