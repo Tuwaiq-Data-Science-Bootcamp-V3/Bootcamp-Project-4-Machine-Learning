@@ -81,3 +81,18 @@ In addition to the initial exploratory data analysis (EDA) steps mentioned earli
 
    We created a new feature, 'Weight_in_kg', by dividing the 'Weight_in_gms' column by 1000. This transformation allowed us to represent the weight in kilograms, which is a more commonly used unit.
 These additional EDA steps enhanced our understanding of the dataset and prepared the data for further analysis and modeling.
+
+# Data Visualization
+
+In this section, we present meaningful insights obtained through data visualization techniques. We have used various charts to analyze the real estate dataset and provide valuable insights.
+
+### Correlation Analysis
+
+To gain insights into the relationships between different variables in the dataset, we performed a correlation analysis. The correlation analysis helps us understand the degree and direction of the linear relationship between pairs of variables. Here is a correlation matrix and a corresponding heatmap visualization:
+
+<center>
+    <img src="images/output.png" alt="Dataset Correlation" width="1000px">
+</center>
+
+The correlation matrix provides a numerical representation of the correlation coefficients between variables. The heatmap visualization offers a visual representation of the correlation matrix, with color intensity indicating the strength of the correlation.
+
