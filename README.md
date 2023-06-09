@@ -41,3 +41,43 @@ The dataset contains information about customers and their interactions with an 
 - **Reached on time**: Target variable indicating whether the product reached on time (0 = reached on time, 1 = not reached on time).
 
 The dataset was obtained from the [Kaggle platform](https://www.kaggle.com/datasets/prachi13/customer-analytics) and forms the basis of our analysis and insights.
+
+## Exploratory Data Analysis (EDA)
+
+To gain insights and understand the dataset, we performed Exploratory Data Analysis (EDA) using various steps and techniques. Here is an overview of the steps we followed:
+
+1. **Head**: We started by examining the first few records in the dataset using the `head` function. This allowed us to get a glimpse of the data and understand its structure.
+
+2. **Shape**: We explored the shape of the dataset using the `shape` attribute, which provided us with the number of rows and columns in the dataset. This information helped us understand the overall size of the dataset.
+
+3. **Info**: We used the `info` function to obtain information about the dataset, including the data types of each column, the number of non-null values, and the memory usage. This helped us understand the data types and identify any potential data inconsistencies.
+
+4. **Describe**: By utilizing the `describe` function, we obtained summary statistics for numerical columns in the dataset. This allowed us to gain insights into the distribution, central tendency, and spread of the numerical data.
+
+5. **Missing Values**: We examined the presence of missing values in the dataset by using the `isnull` function and summing the null values. This step helped us identify any missing data and determine the extent of data completeness.
+
+By performing these steps, we were able to familiarize ourselves with the dataset, understand its structure, and identify any initial patterns or issues that needed further exploration. These insights formed the foundation for our subsequent analysis and decision-making process.
+## Additional EDA
+
+In addition to the initial exploratory data analysis (EDA) steps mentioned earlier, we conducted further data exploration and preprocessing. Here are the details of the additional EDA steps:
+
+1. **Dropping Rows**
+
+   We dropped the 'ID' column from the dataset using the `drop` function. This step removed the unnecessary column and reduced the dimensionality of the dataset.
+
+2. **Data Transformation**
+
+   We performed data transformation on certain columns to convert them into numerical values. The specific transformations are as follows:
+
+   - **Gender Column**: We mapped the 'Gender' column to numerical values. We assigned 0 for 'F' (Female) and 1 for 'M' (Male). This transformation allowed us to represent gender as binary values.
+
+   - **Warehouse_block Column**: We mapped the 'Warehouse_block' column to numerical values ranging from 0 to 4. This transformation assigned numeric labels to different warehouse blocks, facilitating further analysis.
+
+   - **Mode_of_Shipment Column**: We mapped the 'Mode_of_Shipment' column to numerical values of 0, 1, and 2. This transformation assigned numeric labels to different modes of shipment (Flight, Ship, and Road) for easier analysis.
+
+   - **Product_importance Column**: We mapped the 'Product_importance' column to numerical values of 0, 1, and 2. This transformation assigned numeric labels to different levels of product importance (low, medium, and high) for better analysis.
+
+3. **Feature Engineering**
+
+   We created a new feature, 'Weight_in_kg', by dividing the 'Weight_in_gms' column by 1000. This transformation allowed us to represent the weight in kilograms, which is a more commonly used unit.
+These additional EDA steps enhanced our understanding of the dataset and prepared the data for further analysis and modeling.
