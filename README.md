@@ -144,7 +144,7 @@ These selected models can be used to predict the number of customer calls, provi
 
 ## Classification Machine Learning
 
-In order to predict Reached on time, Product importance, and Mode of shipment, we applied classification machine learning techniques. Classification models are used to predict the classes. We use grid search to get the best parameters of each model for each target.
+In order to predict Reached on time, we applied classification machine learning techniques. Classification models are used to predict the classes. We use grid search to get the best parameters of each model for the target.
 
 The following models were used:
 
@@ -152,7 +152,7 @@ The following models were used:
 - Random Forest (RandomForestClassifier)
 - KNeighbors (KNeighborsClassifier)
 
-After evaluating the models with thier best parameters for each target, we selected the following models as best models:
+After evaluating the models with thier best parameters for the target, we selected the following models as best models:
 
 ### Results
 
@@ -166,11 +166,14 @@ Here are the accuracy scores for the models:
 | ExtraTreesRegressor    | 0.749972                 | 0.639091                | 0.693436                      |
 
 
-After that, we plot the confusion matrix for each model:
+After that, we plot the confusion matrix for the models:
 
 <center>
     <img src="images/output4.jpg" alt="confusion matrix" width="800px">
 </center>
 
 # Program
-### We have created a simple program that takes the user input (the target), applies grid search to get the beast models parameters, and compare models performance to choose the one that gives the highest test accuracy. Finally, it provides the user with the name of the best model to predict the target feature.
+### We have created a simple program that takes the user input (the target), applies grid search to get the best models parameters, and compare models performance to choose the one that gives the highest test accuracy. Finally, it provides the user with the name of the best model to predict the target feature.
+
+# For future work:
+### We can apply grid search to get the best models parameters for different targets. e.g. (Product importance, Mode of shipment)
