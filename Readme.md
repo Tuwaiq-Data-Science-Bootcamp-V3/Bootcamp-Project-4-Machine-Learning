@@ -29,7 +29,7 @@ and find the appropriate regression model
 From the above table , it is clear that for the present problem, the Random Forest Regression performs is the best with highest R2 score (Coefficient of Determination) and lowest RMSE. 
 
 ### Resource 
--https://dibyendudeb.com/comparing-machine-learning-regression-models-using-python/
+- https://dibyendudeb.com/comparing-machine-learning-regression-models-using-python/
 
 
 
