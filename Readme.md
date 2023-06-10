@@ -23,7 +23,7 @@ Our data from this resource https://archive.ics.uci.edu/dataset/320/student+perf
 
 
 ## conclusion and recommendations 
-From the table above, it is clear that for the present problem, the best performing model is Decision Tree Regression model with the highest R square (Coefficient of Determination) and least RMAE. 
+From the table above, it is clear that for the present problem, the best performing model is Decision Tree Regression model with the highest R square (Coefficient of Determination) and least RMSE. 
 
 
 ### Resource 
