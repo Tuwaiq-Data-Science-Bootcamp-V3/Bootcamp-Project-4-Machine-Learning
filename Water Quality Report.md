@@ -120,3 +120,6 @@ Lastly, we plotted the accuracy of our models in a line chart.
 
 The best fitting model for the water quality dataset are the decision tree and the bagging classifier models.
 
+## Interactive Dashboard
+
+[Click here]https://public.tableau.com/app/profile/deema.abdullah/viz/Water_16862566213540/Dashboard2?publish=yes to see the dashboard
