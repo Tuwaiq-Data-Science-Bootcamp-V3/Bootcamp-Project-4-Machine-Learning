@@ -1,9 +1,9 @@
 # Machine Learning 
 
 ## Team members and their roles:
-- Salman almalki:  data clean , EDA , Write model code ,  correlation chart
-- Sheikha alobodi :  Write model code , data clean , search for appropriate  model ,data overview chart , correlation chart
-- Albandari alshudukhi : search for appropriate model, data overview chart,write markdown
+- Salman almalki:  data clean , EDA , Write model code and correlation chart
+- Sheikha alobodi :  Write model code , data clean , search for appropriate  model ,data overview chart and correlation chart
+- Albandari alshudukhi : search for appropriate model, data overview chart,write markdown ,write model code and presentation
 
 
 ## Introduction
@@ -11,7 +11,7 @@ The objective of this project is to perform an exploratory data analysis and mac
 and find the appropriate regression model 
 
 ## Dataset Overview and Source.
-- This data approach student achievement in secondary education of two Portuguese schools. The data attributes include student grades, demographic, social and school related features) and it was collected by using school reports and questionnaires. Two datasets are provided regarding the performance in subjects Mathematics (In [Cortez and Silva, 2008].
+- This data approach student achievement in secondary education of two Portuguese schools. The data attributes include student grades, demographic, social and school related features) and it was collected by using school reports and questionnaires. the dataset is provided regarding the performance in subjects Mathematics (In [Cortez and Silva, 2008].
 
 [Students math grade Data Link](https://archive.ics.uci.edu/dataset/320/student+performance)
 
