@@ -8,7 +8,7 @@
 - Lama Alshabani
 - Essa Alhamad
 
-All team members partcibate in data preprocessing, data cleaning, EDA, creat charts, standardize and split the data, and finally apply the ML model
+All team members participate in data preprocessing, data cleaning, EDA, create charts, and finally apply the ML model
 
 ## Introduction :
 Network attacks are unauthorized actions on the digital assets within an organizational network. Malicious parties usually execute network attacks to alter, destroy, or steal private data. Perpetrators in network attacks tend to target network perimeters to gain access to internal systems. 
