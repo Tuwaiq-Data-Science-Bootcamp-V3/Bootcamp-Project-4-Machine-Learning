@@ -1,7 +1,7 @@
 # Machine Learning 
 
 ## Team members and their roles:
-- Salman almalki:  data clean , EDA , Write model code and correlation chart
+- Salman almalki:  data clean , EDA , Write model code and correlation chart and dashboard
 - Sheikha alobodi :  Write model code , data clean , search for appropriate  model ,data overview chart and correlation chart
 - Albandari alshudukhi : search for appropriate model, data overview chart,write markdown ,write model code and presentation
 
