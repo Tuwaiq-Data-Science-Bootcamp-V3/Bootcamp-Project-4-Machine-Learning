@@ -173,4 +173,4 @@ After that, we plot the confusion matrix for each model:
 </center>
 
 # Program
-###We have created a simple program that takes the user input (the target), applies grid search to get the beast models parameters, and compare models performance to choose the one that gives the highest test accuracy. Finally, it provides the user with the name of the best model to predict the target feature.
+### We have created a simple program that takes the user input (the target), applies grid search to get the beast models parameters, and compare models performance to choose the one that gives the highest test accuracy. Finally, it provides the user with the name of the best model to predict the target feature.
