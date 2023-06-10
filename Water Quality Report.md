@@ -118,3 +118,5 @@ Lastly, we plotted the accuracy of our models in a line chart.
 
 ![14](https://github.com/Nier1419/Bootcamp-Project-4-Machine-Learning/assets/85634276/bdf06324-f579-4c0d-aa52-c4964ffbdd10)
 
+The best fitting model for the water quality dataset are the decision tree and the bagging classifier models.
+
