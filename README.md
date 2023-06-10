@@ -175,5 +175,9 @@ After that, we plot the confusion matrix for the models:
 # Program
 ### We have created a simple program that takes the user input (the target), applies grid search to get the best models parameters, and compare models performance to choose the one that gives the highest test accuracy. Finally, it provides the user with the name of the best model to predict the target feature.
 
+# In conclusion
+Our project analyzed an e-commerce customer database to understand behavior and satisfaction. We used machine learning to predict customer care calls and timely product delivery. The top-performing regression models were XGBRegressor, RandomForestRegressor, and ExtraTreesRegressor. For classification, Gradient Boosting, RandomForestClassifier, and KNeighbors performed well in predicting timely delivery. Our findings enable data-driven decisions to improve customer support, satisfaction, and overall business processes.
+
 # For future work:
 ### We can apply grid search to get the best models parameters for different targets. e.g. (Product importance, Mode of shipment)
+
