@@ -1,14 +1,20 @@
-## 1. Introduction
+# Google Play Store
+## Team members:
+- Amjad Alsuwaiket
+- Omar Alnasser 
+- Hamad AL Sulaiman
+
+# Introduction
 
 The goal of this project is to develop machine learning models that can predict the rating of Google play store mobile apps based on various features such as reviews, number of installs, type, and price. By training and evaluating different models, we aim to identify the most accurate and reliable approach for predicting app ratings.
 
-## 2. Dataset Overview and Source
+# Dataset Overview and Source
 
 The dataset used for this project consists of information about mobile apps, including their reviews, number of installs, type (free or paid), price, and rating. The dataset was sourced from https://www.kaggle.com/datasets/lava18/google-play-store-apps. It contains a total of 10841 rows and 18 columns.
 
 The dataset was preprocessed and split into training and testing sets for model development and evaluation.
 
-## 3. Model Evaluation Results
+# Model Evaluation Results
 
 The table below summarizes the final results of the machine learning models evaluated in this project:
 
