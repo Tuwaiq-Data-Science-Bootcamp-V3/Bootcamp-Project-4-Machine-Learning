@@ -1,33 +1,22 @@
-# Bootcamp-Project-4-Machine-Learning
+## 1. Introduction
 
-**Based on what you’ve learned until now, use NumPy, pandas, matplotlib, seaborn, and scikit-learn to create a project of your choosing.**
+The goal of this project is to develop machine learning models that can predict the rating of Google play store mobile apps based on various features such as reviews, number of installs, type, and price. By training and evaluating different models, we aim to identify the most accurate and reliable approach for predicting app ratings.
 
-Based on what you’ve learned until now, use NumPy, pandas, matplotlib, seaborn, and scikit-learn to create a project of your choosing.
+## 2. Dataset Overview and Source
 
-This project must at least satisfy the following minimum requirements:
+The dataset used for this project consists of information about mobile apps, including their reviews, number of installs, type (free or paid), price, and rating. The dataset was sourced from https://www.kaggle.com/datasets/lava18/google-play-store-apps. It contains a total of 10841 rows and 18 columns.
 
-- Choose a public dataset that needs to clean and preprocess.
-- EDA
-    - Apply the essential EDA steps: head, shape, info, describe, and missing values.
-    - Display different charts that give an overview of your data.
-- Use train-test split methods.
-- Choose at least two proper ML Algorithms (either classification or regression).
-- Report appropriate evaluation metrics for each model.
-- Create a chart that compares the final results of your selected models.
-- Write a final conclusion and recommendations (your interpretation of the results).
-- Report your final conclusion and findings in one page (readme markdown file).
-    - Team members and their roles.
-    - Introduction (problem or your goal).
-    - Dataset Overview and Source.
-    - A table represents the final results of ML models.
+The dataset was preprocessed and split into training and testing sets for model development and evaluation.
 
-- [Nice to have - Optional] Create an interactive dashboard.
+## 3. Model Evaluation Results
 
+The table below summarizes the final results of the machine learning models evaluated in this project:
 
-- Due Date: Sat, 10 Jun, at 11:00 p.m.
-- The Final presentation will be on Sunday (10 min for each group).
+| Model                 | Accuracy | MAE   | MSE   | RMSE  |
+|-----------------------|----------|-------|-------|-------|
+| Logistic Regression   | 0.782    | 0.249 | 0.319 | 0.564 |
+| Random Forest         | 0.725    | 0.310 | 0.391 | 0.625 |
 
-### Final Deliverables:
-- Notebook file(.ipynb).
-- Dataset file.
-- README.md file.
+Note: Accuracy represents the proportion of correct predictions, MAE measures the average absolute difference between predicted and actual values, MSE calculates the average squared difference, and RMSE is the square root of MSE.
+
+The table provides a clear comparison of the performance metrics for each model, allowing for an easy assessment of their effectiveness in predicting app ratings.
