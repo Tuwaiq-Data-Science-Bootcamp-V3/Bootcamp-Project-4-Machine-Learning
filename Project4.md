@@ -2,7 +2,7 @@
 
 Team members: Sarah Alyami, Abdulmalik Alsharekh and Hanadi Almoutairy.
 
-<img width="1000" height="500" src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/Diabetes.png">
+<img width="1000" height="500" src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/Figures/Diabetes.png">
 
 ## Problem Statement
 
@@ -93,7 +93,7 @@ The mapping dictionary was used to transform the values as follows:
 5. The boxplot analysis reveals the presence of outliers in the dataset. In order to address this issue, it is recommended to handle the outliers by applying an appropriate outlier detection and removal technique.
 
 <p align="center">
-  <img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/raw/main/outliers.png" alt="Outliers" width="500" height="300">
+  <img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/Figures/outliers.png" alt="Outliers" width="500" height="300">
 </p>
 
 - One common approach for handling outliers is to use the Interquartile Range (IQR) method. This involves calculating the IQR for each column, which is the range between the 75th percentile (Q3) and the 25th percentile (Q1). Any data points that fall below Q1 - 1.5 * IQR or above Q3 + 1.5 * IQR are considered outliers and can be dropped from the dataset.
@@ -133,7 +133,7 @@ After applying these data cleaning steps, we ended up with a refined dataset con
 - Overall, the Random Forest algorithm (optimized) stands out as the most accurate and reliable model for diabetes prediction, followed closely by SVM and Decision Tree. Logistic Regression also performed well, while Multinomial Naïve Bayes showed relatively lower accuracy but higher precision.
 
 <p align="center">
-  <img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/performance%20of%20classifiers%201.png" width="500" height="300">
+  <img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/Figures/performance%20of%20classifiers%201.png" width="500" height="300">
 </p>
 
 ### Resampling Methods
@@ -173,7 +173,7 @@ After applying these data cleaning steps, we ended up with a refined dataset con
 - The Decision Tree algorithm stands out as the top performer across all metrics, showcasing its effectiveness in accurately classifying the data. SVM and Logistic Regression also show promising results but exhibit some trade-offs between precision and recall. Multinomial Naïve Bayes struggles to handle the classification task effectively. The optimized Random Forest algorithm achieves a respectable performance but falls slightly behind the Decision Tree algorithm.
 
 <p align="center">
-  <img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/performance%20of%20classifiers%202.png" width="500" height="300">
+  <img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/Figures/performance%20of%20classifiers%202.png" width="500" height="300">
 </p>
 
 ## Friendly-User Interface
@@ -188,11 +188,11 @@ After applying these data cleaning steps, we ended up with a refined dataset con
 
 - Example Prediction Result: Patient Not Diagnosed with Diabetes
 
-<img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/Interface1.png" alt="Image 1" height="500" width="1000">
+<img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/Figures/Interface1.png" alt="Image 1" height="500" width="1000">
 
 - Example Prediction Result: Patient Diagnosed with Diabetes: 
 
-<img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/Interface2.png" alt="Image 1" height="500" width="1000">
+<img src="https://github.com/isazHfc/Bootcamp-Project-4-Machine-Learning/blob/main/Figures/Interface2.png" alt="Image 1" height="500" width="1000">
 
 ###### Team members and their roles
 
