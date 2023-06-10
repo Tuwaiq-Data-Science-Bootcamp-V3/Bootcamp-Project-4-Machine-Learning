@@ -15,10 +15,12 @@ Network attacks are unauthorized actions on the digital assets within an organiz
 
 
 ## Problem Definition
-The main problem addressed in this study is to predict Network Attacks depend on PROTOCOL MAP and source , ip destination , ... etc with high accuracy 
+The main problem addressed in this study is to predict Network Attacks depend on PROTOCOL MAP and ip source , ip destination , ... etc with high accuracy 
 and This project is focused on developing a machine learning model to detect cyber attacks using network flow data. The network data schema is in the Netflow V9 format
 
 ## Dataset Overview :
+[Click here](https://www.kaggle.com/datasets/ashtcoder/network-data-schema-in-the-netflow-v9-format?select=train_net.csv)
+
 The database contains 117,174 records and 33 columns containing all the details related to communication and includes 4 classes of cyber attacks:
 'None' , 'Port Scanning' , 'Denial of Service' , 'Malware'
 
