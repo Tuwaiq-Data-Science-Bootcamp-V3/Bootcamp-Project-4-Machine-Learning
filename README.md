@@ -124,6 +124,7 @@ After evaluating the models, we selected the following three models as the top p
 - XGBRegressor
 - RandomForestRegressor
 - ExtraTreesRegressor
+
 ### Results
 Here are the performance metrics for the selected models:
 
@@ -141,4 +142,35 @@ These models were selected based on their performance in terms of the mean absol
 These selected models can be used to predict the number of customer calls, providing valuable insights for customer support and engagement strategies.
 
 
+## Classification Machine Learning
 
+In order to predict Reached on time, Product importance, and Mode of shipment, we applied classification machine learning techniques. Classification models are used to predict the classes. We use grid search to get the best parameters of each model for each target.
+
+The following models were used:
+
+- Gradient Boosting (GradientBoostingClassifier)
+- Random Forest (RandomForestClassifier)
+- KNeighbors (KNeighborsClassifier)
+
+After evaluating the models with thier best parameters for each target, we selected the following models as best models:
+
+### Results
+
+#### For (target = Reached.on.Time_Y.N)
+Here are the accuracy scores for the models:
+
+| Model                  | Train Accuracy            | Test Accuracy            | f1-score                     |
+|------------------------|--------------------------|-------------------------|-------------------------------|
+| Gradient Boosting      | 0.696215                 | 0.671364                | 0.649879                      |
+| RandomForestRegressor | 0.698034                 | 0.668636                | 0.642472                      |
+| ExtraTreesRegressor    | 0.749972                 | 0.639091                | 0.693436                      |
+
+
+After that, we plot the confusion matrix for each model:
+
+<center>
+    <img src="images/output4.jpg" alt="confusion matrix" width="800px">
+</center>
+
+# Program
+###We have created a simple program that takes the user input (the target), applies grid search to get the beast models parameters, and compare models performance to choose the one that gives the highest test accuracy. Finally, it provides the user with the name of the best model to predict the target feature.
