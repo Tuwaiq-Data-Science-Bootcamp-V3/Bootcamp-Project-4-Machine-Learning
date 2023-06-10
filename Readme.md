@@ -1,9 +1,9 @@
 # Machine Learning 
 
 ## Team members and their roles:
-- Salman almalki: cleaning data , EDA
+- Salman almalki:  data clean , EDA
 - Sheikha alobodi :  Write model code , data clean , search for appropriate  model
-- Albandari alshudukhi : search for appropriate  model,make data overview chart,write markdown
+- Albandari alshudukhi : search for appropriate model, data overview chart,write markdown
 
 
 ## Introduction
