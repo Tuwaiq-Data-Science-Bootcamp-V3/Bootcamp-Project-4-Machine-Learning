@@ -162,8 +162,8 @@ Here are the accuracy scores for the models:
 | Model                  | Train Accuracy            | Test Accuracy            | f1-score                     |
 |------------------------|--------------------------|-------------------------|-------------------------------|
 | Gradient Boosting      | 0.696215                 | 0.671364                | 0.649879                      |
-| RandomForestRegressor | 0.698034                 | 0.668636                | 0.642472                      |
-| ExtraTreesRegressor    | 0.749972                 | 0.639091                | 0.693436                      |
+| Random Forest          | 0.698034                 | 0.668636                | 0.642472                      |
+| KNeighbors             | 0.749972                 | 0.639091                | 0.693436                      |
 
 
 After that, we plot the confusion matrix for the models:
